@@ -1,3 +1,16 @@
+
+I have tried my best to make server components but I could not.
+The initial page which holds the form, has to be client side, which means that all it's children would be client too.
+To avoid that I can pass the components as children or params to the form (to avoid using import), but that would work only if those components don't need any dynamic data.
+
+
+As every project the first step after cloning the repo, you run ```npm install```
+
+After that you can user the default documentation
+
+I attempted to implement jest for unit testing as requested, but encountered too many run time errors from the provided setup from the documentation.
+https://nextjs.org/docs/app/building-your-application/testing/jest
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
