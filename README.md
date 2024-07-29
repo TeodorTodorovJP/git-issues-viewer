@@ -8,6 +8,10 @@ As every project the first step after cloning the repo, you run ```npm install``
 
 After that you can user the default documentation
 
+If you want to test the dev version, run ```npm run dev```
+
+If you want to test the production version, run ```npm run build``` and then ```npm run start```
+
 I attempted to implement jest for unit testing as requested, but encountered too many run time errors from the provided setup from the documentation.
 https://nextjs.org/docs/app/building-your-application/testing/jest
 
